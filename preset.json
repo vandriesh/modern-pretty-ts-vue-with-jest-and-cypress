@@ -1,24 +1,19 @@
 {
-  "useTaobaoRegistry": true,
-  "presets": {
-      "modern-pretty-ts-vue-with-jest-and-cypress": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-typescript": {
-          "classComponent": true
-        },
-        "@vue/cli-plugin-vuex": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "prettier",
-          "lintOn": [
-            "save",
-            "commit"
-          ]
-        },
-        "@vue/cli-plugin-unit-jest": {},
-        "@vue/cli-plugin-e2e-cypress": {}
-      },
-      "cssPreprocessor": "node-sass"
-    }
-  }
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-typescript": {
+      "classComponent": true
+    },
+    "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "prettier",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "@vue/cli-plugin-e2e-cypress": {}
+  },
+  "cssPreprocessor": "node-sass"
 }
